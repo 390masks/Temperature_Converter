@@ -1,0 +1,43 @@
+.container{
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  border-radius: 50px;
+  h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    // box-shadow: 1px 10px 10px black;
+    text-shadow: 1px 10px 10px black;
+  }
+  input{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow:1px 10px 10px black;
+  }
+  button{
+    padding: 10px 20px;   
+  margin: 5px;          
+  font-size: 16px;  
+  border: none;         
+  cursor: pointer;
+  font-size: 16px; 
+  border-radius: 20px;
+  background-color: orange;
+  box-shadow:1px 10px 10px black;
+  color: white; 
+  font-weight: bold;    
+  }
+  p{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+  }
+}
